@@ -1,6 +1,10 @@
-const should = require("chai").should();
+require("chai").should();
 
 const adder = require("../adder");
+
+const { expect } = require("chai");
+
+expect(1).to.equal(1);
 
 // unit tests for our `adder` function
 describe("adder", function() {
